@@ -2,7 +2,7 @@
 class Database{
 
 	private $host = 'localhost';
-	private $dbase = 'imagens';
+	private $dbase = 'multimidia';
 	//credenciais para uso na instalação padrao do MySQL no XAMPP (Windows)
 	private $user = 'root';
 	private $pass = '';	
