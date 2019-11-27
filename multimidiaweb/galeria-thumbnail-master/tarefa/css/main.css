@@ -4,16 +4,19 @@ main{
 #menu-galerias{
     display: flex;
     list-style-type: none;
+
 }
 
 #menu-galerias li{
     padding-left: 20px;
+
 }
 
 #fotos{
     display: flex;
     align-items: baseline;
     justify-content: center;
+
 }
 .foto{
     display: flex;
@@ -23,7 +26,22 @@ main{
     justify-content: center;
 }
 
-.foto img{
-    width: 100px;
+  .foto img{
+    
     align-content: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+     padding: 5px;
+     width: 150px;
+}  
+
+ /* img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
 }
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}  */
