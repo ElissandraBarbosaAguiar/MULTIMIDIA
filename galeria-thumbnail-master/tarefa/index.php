@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <h1 style="color: blue;" >Galeria de Imagens</h1>
+        <h1 style="color: blue;">Galeria de Imagens</h1>
        <BUTTON class"" > <ul id="menu-galerias"><br><br></BUTTON>
             <!-- Aqui vai carregar o menu (as galerias) -->
         </ul>
@@ -27,7 +27,7 @@
 <!-- Aqui serão exibidas as fotos -->
 
         </main>
-</body>
+</body> 
 </html> 
             <!-- Aqui serão exibidas as fotos , Mas desta forma não deu certo.--> 
          <!--        <div class="img-thumbnail">
