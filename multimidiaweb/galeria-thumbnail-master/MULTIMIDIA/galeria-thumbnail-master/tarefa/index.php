@@ -17,7 +17,11 @@
 </head>
 <body>
     <header>
-        <h1 >Galeria de Imagens <br><br></h1>
+        
+  <h1 >Galeria de Imagens </h1>
+
+        
+   
         <ul id="menu-galerias">
             <!-- Aqui vai carregar o menu (as galerias) -->
         </ul>

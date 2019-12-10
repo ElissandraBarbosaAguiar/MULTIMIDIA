@@ -6,8 +6,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,17 +13,17 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="js/index.js"></script>
-
+<head>
 </head>
 <body>
     <header>
-        <h1>Galeria de Imagens</h1>
-       <BUTTON class"" > <ul id="menu-galerias"></BUTTON>
+        <h1 style="color: blue;" >Galeria de Imagens</h1>
+       <BUTTON class"" > <ul id="menu-galerias"><br><br></BUTTON>
             <!-- Aqui vai carregar o menu (as galerias) -->
         </ul>
     </header>
     <main>
-        <div id="fotos" class="img-thumbnail">
+        <div id="fotos" class="img-thumbnail" style="border-color: blue;">
 <!-- Aqui serão exibidas as fotos -->
 
         </main>
