@@ -12,11 +12,11 @@ $(document).ready(function(){
                 console.log(imagens);
                 $("#fotos").empty();
                 $.each(imagens, function(key, imagem){
-                    $("#fotos").append('<div class="foto" id="'+imagem.id+'"><img src="images/'+imagem.arquivo+'<p>'+imagem.descricao+'</p></div>');
-                });                                                                                 //acrecentei aqui a class="img-thumbnail"
+                    $("#fotos").append('<div class="foto" id="'+imagem.id+'"><img src="images/'+imagem.arquivo+'"/><p>'+imagem.descricao+'</p></div>');
+                });
             });
         
-        });     // <img src="..." alt="..." class="img-thumbnail">
+        });
     });
 
 
