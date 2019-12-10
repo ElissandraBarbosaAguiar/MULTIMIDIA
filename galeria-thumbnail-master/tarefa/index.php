@@ -25,7 +25,7 @@
     <main>
         <div id="fotos">
             <!-- Aqui serão exibidas as fotos -->
-                 <div class="img-thumbnail">
+         <!--        <div class="img-thumbnail">
             <img src="images/g1_foto1.jpg" alt="..." class="img-thumbnail">
             <img src="images/g1_foto2.jpg" alt="..." class="img-thumbnail">
             <img src="images/g1_foto3.jpg" alt="..." class="img-thumbnail">
@@ -33,6 +33,42 @@
             <img src="images/g2_foto2.png" alt="..." class="img-thumbnail">
 
                  </div>
+
+             -->
+             <?php
+                
+                $nome ="g1_foto1.jpg";
+                $nome ="g1_foto2.jpg";
+                $nome ="g1_foto3.jpg";
+                $nome ="g1_foto4.jpg";
+                $nome ="g2_foto1.png";
+                $nome ="g2_foto2.png";
+                $nome ="g2_foto3.png";
+                $nome ="g2_foto4.png";
+
+
+                $img = imagecreatefromjpeg("images/thumbs/$nome");
+                $imgs = getimagesize("images/$nome");
+                        //AQUI É A ONDE A TROCA DE IMAGENS OCORRE. DO ESTADO GRANDE  PARA O PEQUENO.
+                $w = $imgs[0];
+                $h = $imgs [1];
+
+                $escala = 100/$w;
+
+                $l =floor($w*$escala);
+                $a = floor($h*$escala);
+
+                $tp = imagecreatetruecolor($l,$a);
+
+                imagecopyresampled($tp,$img,0,0,0,0,$l, $a, $w, $h);
+
+                    imagejpeg($tp, "thumbs/$nome",100);
+
+             ?>
+<!-- <img src="thumbs/g1_foto1.jpg">  -->
+
+
+
         </div>
     </main>
 </body>
