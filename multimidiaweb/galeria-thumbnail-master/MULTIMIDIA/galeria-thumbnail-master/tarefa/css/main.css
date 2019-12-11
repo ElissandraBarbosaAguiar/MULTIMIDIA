@@ -1,13 +1,16 @@
 main{
     padding: 0px 30px;
+    
 }
 #menu-galerias{
     display: flex;
     list-style-type: none;
+    
 }
 
 #menu-galerias li{
     padding-left: 20px;
+
 }
 
 #fotos{
